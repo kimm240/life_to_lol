@@ -12,7 +12,8 @@ $first_data = "상위 ";
 $second_data = null;
 
 $TierArrayData = array(0.02, 0.06, 0.11, 0.31, 0.68, 1.45, 3.67, 5.59, 7.58, 10.58, 18.36, 22.53, 29.14, 36.76, 50.21, 57.53, 66.31, 73.61, 82.76, 88.73, 92.78, 95.53, 97.93, 98.94, 99.64, 99.96, 100);
-$TierArrayName = ["Challenger", "Grandmaster", "Master", "Diamond1", "Diamond2", "Diamond3", "Diamond4", "Platinum1", "Platinum2", "Platinum3", "Platinum4", "Gold1", "Gold2", "Gold3", "Gold4", "Silver1", "Silver2", "Silver3", "Silver4", "Bronze1", "Bronze2", "Bronze3", "Bronze4", "Iron1", "Iron2", "Iron3", "Iron4"];
+$TierArrayName = array("Challenger", "Grandmaster", "Master", "Diamond1", "Diamond2", "Diamond3", "Diamond4", "Platinum1", "Platinum2", "Platinum3", "Platinum4", "Gold1", "Gold2", "Gold3", "Gold4", "Silver1", "Silver2", "Silver3", "Silver4", "Bronze1", "Bronze2", "Bronze3", "Bronze4", "Iron1", "Iron2", "Iron3", "Iron4");
+#$TierArrayName = ["Challenger", "Grandmaster", "Master", "Diamond1", "Diamond2", "Diamond3", "Diamond4", "Platinum1", "Platinum2", "Platinum3", "Platinum4", "Gold1", "Gold2", "Gold3", "Gold4", "Silver1", "Silver2", "Silver3", "Silver4", "Bronze1", "Bronze2", "Bronze3", "Bronze4", "Iron1", "Iron2", "Iron3", "Iron4"];
 
 if($what == "학벌"){
   #from_data:
