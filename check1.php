@@ -26,15 +26,25 @@ if($what == "학벌"){
 
   $rank = $row['rank_of_this'];
   $ratio = ($rank / 4942) * 100;
-  $first_data .= round($ratio, 2);
-  $first_data .= "%";
 
-  $tier_idx = 0;
-  for($tier_idx = 0; $tier_idx < 27; $tier_idx++){
-      if($TierArrayData[$tier_idx] >= $ratio) break;
+  //데이터가 존재하지 않는 경우
+  if($ratio === 0){
+    $what = "인생데이터를 정확히 입력해주세요.";
+    $sum_name = "실패!";
+    $first_data = null;
+    $second_data = "돌아가세요!";
   }
-  $second_data = $TierArrayName[$tier_idx];
+  //데이터가 존재하는 경우
+  else{
+    $first_data .= round($ratio, 2);
+    $first_data .= "%";
 
+    $tier_idx = 0;
+    for($tier_idx = 0; $tier_idx < 27; $tier_idx++){
+        if($TierArrayData[$tier_idx] >= $ratio) break;
+    }
+    $second_data = $TierArrayName[$tier_idx];
+  }
   if($result === false){
     echo '데이터를 가져오는 과정에서 문제가 생겼습니다. 관리자에게 문의해주세요';
     error_log(mysqli_error($conn));
@@ -76,15 +86,23 @@ elseif($what == "거주지"){
 
   $rank = $row['apart_rank'];
   $ratio = ($rank / 82726) * 100;
-  $first_data .= round($ratio, 2);
-  $first_data .= "%";
 
-  $tier_idx = 0;
-  for($tier_idx = 0; $tier_idx < 27; $tier_idx++){
-      if($TierArrayData[$tier_idx] >= $ratio) break;
+  if($ratio === 0){
+    $what = "인생데이터를 정확히 입력해주세요.";
+    $sum_name = "실패!";
+    $first_data = null;
+    $second_data = "돌아가세요!";
   }
-  $second_data = $TierArrayName[$tier_idx];
+  else{
+    $first_data .= round($ratio, 2);
+    $first_data .= "%";
 
+    $tier_idx = 0;
+    for($tier_idx = 0; $tier_idx < 27; $tier_idx++){
+        if($TierArrayData[$tier_idx] >= $ratio) break;
+    }
+    $second_data = $TierArrayName[$tier_idx];
+  }
   if($result === false){
     echo '데이터를 가져오는 과정에서 문제가 생겼습니다. 관리자에게 문의해주세요';
     error_log(mysqli_error($conn));
@@ -129,7 +147,7 @@ else{
           <?php echo $second_data ?>
       </p>
       <a href="index.php" class="card-link">돌아가기</a>
-      <a href="https://lifetolol.azurewebsites.net/" class="card-link">인생티어를롤티어로변환하기</a>
+      <a href="https://loltolife.azurewebsites.net/" class="card-link">롤티어를인생데이터로변환하기</a>
     </div>
   </div>
     <!-- Optional JavaScript; choose one of the two! -->
