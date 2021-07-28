@@ -18,7 +18,7 @@ if (isset($_GET['term'])){
     $return_arr = array();
 
     $keyword = $_GET['term'];
-    $sql = "SELECT resi_fullname FROM resident WHERE resi_fullname LIKE '%".$keyword."%' LIMIT 10";
+    $sql = "SELECT DISTINCT resi_fullname FROM resident WHERE resi_fullname LIKE '%".$keyword."%' LIMIT 10";
     $result = mysqli_query($db, $sql);
     while($row = mysqli_fetch_assoc($result)){
         $return_arr[] =  $row['resi_fullname'];
