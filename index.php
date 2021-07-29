@@ -114,6 +114,13 @@
     <div>
       <p>&copy; 김현규 2021. All Rights Reserved. </p>
     </div>
+
+    <ins class="kakao_ad_area" style="display:none;" 
+     data-ad-unit    = "DAN-on7XtpPJwr9gOT1S" 
+     data-ad-width   = "320" 
+     data-ad-height  = "100"></ins> 
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
