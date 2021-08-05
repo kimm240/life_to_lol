@@ -11,7 +11,8 @@ $what = $_POST['lifetier'];
 $first_data = "상위 ";
 $second_data = null;
 
-$TierArrayData = array(0.02, 0.06, 0.11, 0.31, 0.68, 1.45, 3.67, 5.59, 7.58, 10.58, 18.36, 22.53, 29.14, 36.76, 50.21, 57.53, 66.31, 73.61, 82.76, 88.73, 92.78, 95.53, 97.93, 98.94, 99.64, 99.96, 100);
+#$TierArrayData = array(0.02, 0.06, 0.11, 0.31, 0.68, 1.45, 3.67, 5.59, 7.58, 10.58, 18.36, 22.53, 29.14, 36.76, 50.21, 57.53, 66.31, 73.61, 82.76, 88.73, 92.78, 95.53, 97.93, 98.94, 99.64, 99.96, 100);
+$TierArrayData = array(0.012, 0.04, 0.16, 0.4, 0.64, 0.95, 1.57, 3.27, 4.67, 6.87, 12.57, 15.97, 21.27, 27.57, 40.57, 48.17, 57.57, 66.07, 77.07, 83.37, 89.17, 93.17, 96.47, 97.47, 98.03, 98.29, 98.41);
 $TierArrayName = array("Challenger", "Grandmaster", "Master", "Diamond1", "Diamond2", "Diamond3", "Diamond4", "Platinum1", "Platinum2", "Platinum3", "Platinum4", "Gold1", "Gold2", "Gold3", "Gold4", "Silver1", "Silver2", "Silver3", "Silver4", "Bronze1", "Bronze2", "Bronze3", "Bronze4", "Iron1", "Iron2", "Iron3", "Iron4");
 #$TierArrayName = ["Challenger", "Grandmaster", "Master", "Diamond1", "Diamond2", "Diamond3", "Diamond4", "Platinum1", "Platinum2", "Platinum3", "Platinum4", "Gold1", "Gold2", "Gold3", "Gold4", "Silver1", "Silver2", "Silver3", "Silver4", "Bronze1", "Bronze2", "Bronze3", "Bronze4", "Iron1", "Iron2", "Iron3", "Iron4"];
 
