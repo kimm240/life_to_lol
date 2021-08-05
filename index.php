@@ -102,6 +102,9 @@
           아파트/빌라2: 21년 4월, 5월, 6월, 7월에 매매되지 않은 아파트/빌라는 데이터에 존재하지 않습니다.<br>
           학벌: 정시 기준이기 때문에 정시로 인원을 모집하지 않은 학과는 데이터에 존재하지 않습니다.<br>
         <br>
+        <b style="font-size:20px;">광고/기타 문의</b>
+          kimm240240@gmail.com<br>
+        <br>
         [Your product] isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
       </div>
     </div>
