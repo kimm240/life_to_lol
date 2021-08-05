@@ -9,7 +9,7 @@
     <meta name="description" content="인생 데이터를 입력해서 인생 티어를 측정해보세요!"/>
     <meta property="og:title" content="인생 데이터를 롤 티어로 바꿔보자!" />
     <meta property="og:description" content="인생 데이터를 입력해서 인생 티어를 측정해보세요!" />
-    <meta property="og:image" content="https://im.ge/i/hFgBy"/>
+    <meta property="og:image" content="tier.PNG"/>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
