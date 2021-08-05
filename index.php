@@ -9,7 +9,7 @@
     <meta name="description" content="인생 데이터를 입력해서 인생 티어를 측정해보세요!"/>
     <meta property="og:title" content="인생 데이터를 롤 티어로 바꿔보자!" />
     <meta property="og:description" content="인생 데이터를 입력해서 인생 티어를 측정해보세요!" />
-    <meta property="og:image" content="https://ibb.co/pPdzZ3c"/>
+    <meta property="og:image" content="https://im.ge/i/hFgBy"/>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -47,7 +47,7 @@
   <h1>인생 데이터를 롤 티어로 바꿔보자!</h1>
   <h3 style="font-size:15px;">이게 뭔가요? <br>
     롤 티어의 백분위를 그대로 인생 데이터에 적용하여 보여줍니다.<br>
-    (예시)남자의 상위 19% 키인 178 -> 상위 22% -> Gold1<br>
+    (예시)남자의 상위 19% 키인 178 -> 상위 22% -> Gold3<br>
   </h3>
   <h2 style="font-size:15px;">어떻게 하나요? <br>
     1. 롤 티어로 바꾸고 싶은 인생 데이터의 종류를 선택합니다.<br>
